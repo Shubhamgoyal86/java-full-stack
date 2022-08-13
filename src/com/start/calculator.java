@@ -30,12 +30,17 @@ public class calculator {
                 System.out.println(a - b);
 
             }
-            else {
-                System.out.println("invalid number");
-            }
 
         }
+        else if (op=='x'||op=='X'){
+            break;
+        }
+        else {
+            System.out.println("invalid number");
+        }
             System.out.println(ans);
+
+
 
 
         }
